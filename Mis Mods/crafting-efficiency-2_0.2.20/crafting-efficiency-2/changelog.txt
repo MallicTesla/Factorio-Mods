@@ -1,0 +1,382 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.20
+Date: 14.07.2025
+  Features:
+    - Initial "pyalienlife" support
+  Bugfixes:
+    - Fixed productivity cap limit for productivities with multiple recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.19
+Date: 12.07.2025
+  Features:
+    - Initial "extraplanetary-production" support
+---------------------------------------------------------------------------------------------------
+Version: 0.2.18
+Date: 06.07.2025
+  Bugfixes:
+    - Fixed game crash for missing recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.17
+Date: 27.06.2025
+  Bugfixes:
+    - Fixed missing recipes
+  Changes:
+    - Added productivity for alternative "Iron Stick" recipe with "space-age"
+---------------------------------------------------------------------------------------------------
+Version: 0.2.16
+Date: 26.06.2025
+  Bugfixes:
+    - Fixed crash with "Extended Vanilla"
+---------------------------------------------------------------------------------------------------
+Version: 0.2.15
+Date: 25.06.2025
+  Changes:
+    - Partial internal rewrìte
+---------------------------------------------------------------------------------------------------
+Version: 0.2.14
+Date: 21.06.2025
+  Features:
+    - Added ability to choose what type of recipe can have the productivity
+  Bugfixes:
+    - Fixed technologies prerequisites that did not include the base technology of the recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.2.12
+Date: 14.06.2025
+  Changes:
+    - Renamed "Solid fuel efficiency" into "Solid fuel productivity"
+  Bugfixes:
+    - Fixed technologies with prerequisites disabled were unable to be researched
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 26.05.2025
+  Bugfixes:
+    - Fixes crash with "Bob's Metals, Chemicals and Intermediates" >= 2.0.2
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 15.05.2025
+  Bugfixes:
+    - Fixed "stone-brick" productivity
+  Features:
+    - Added "Nutrients" recipe productivity
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 08.05.2025
+  Features:
+    - Added support for "Extended Vanilla Refining, Extended Vanilla Machines" recipes 
+    - Added "Iron stick, Grenade, Firearm Tier 1-2-3" recipes productivity
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 03.05.2025
+  Features:
+    - Added (Concrete, Hazard concrete, Refined concrete, Refined hazard concrete, Concrete from molten iron[space-age only]) productivity
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 01.05.2025
+  Changes:
+    - Changed mod description
+  Bugfixes:
+    - Fixed galore mods dependencies
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 14.04.2025
+  Features:
+    - Added support for "Vanilla Galore Continued" recipes 
+    - Added support for "Space Age Galore " recipes 
+    - Added new "Space-Age" recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 14.04.2025
+  Changes:
+    - Miror fixes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 14.04.2025
+  Features:
+    - Added option to disable productivity limit (default off)
+    - Added support for "Bob's Mods" recipes 
+    - Added some "Space-age" only productivities 
+  Bugfixes:
+    - Fixed technology prerequisites when they have multiple productivity effect
+  Changes:
+    - Removed requirements for "pypostprocessing" and "space-exploration-postprocess" 
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 05.04.2025
+  Bugfixes:
+    - Fixed API support for multiple recipes in technology
+    - Fixed loading error with "Pyanodons"
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 03.04.2025
+  Features:
+    - Added support for multiple recipes per technology
+  Changes:
+    - Merged all solid fuel technology into one
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 08.11.2024
+  Bugfixes:
+    - Fixed wrong icons for certain technology 
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 07.11.2024
+  Major Features:
+    - Vanilla efficiency support
+  Minor Features:
+    - Renamed all recipe from "efficiency" to "productivity"
+    - Removed old productivity recipe method
+  Bugfixes:
+    - Fixed technology icon not showing correctly
+  Info:
+    - Before updating from older release, revert all productivity recipe to the vanilla one, using the Tool "Revert recipe"
+---------------------------------------------------------------------------------------------------
+Version: 0.1.23
+Date: 02.11.2024
+  Bugfixes:
+    - Fixed quality reset to normal during automatic/manual recipe change 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.22
+Date: 01.11.2024
+  Bugfixes:
+    - Fixed setting "Enable productivity module" 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.21
+Date: 30.10.2024
+  Bugfixes:
+    - Fixed unable to technology "Copper cable efficiency" with "PY" mods
+---------------------------------------------------------------------------------------------------
+Version: 0.1.20
+Date: 27.10.2024
+  Bugfixes:
+    - Fixed no ingredient/result recipe count
+---------------------------------------------------------------------------------------------------
+Version: 0.1.19
+Date: 21.10.2024
+  Features:
+    - Factorio 2.0 support
+---------------------------------------------------------------------------------------------------
+Version: 0.1.18
+Date: 18.10.2024
+  Features:
+    - Added planner to set vanilla recipe
+  Bugfixes:
+    - Fixed setting "productivity module" that enable every time productivity module
+---------------------------------------------------------------------------------------------------
+Version: 0.1.17
+Date: 11.10.2024
+  Bugfixes:
+    - Fixed wrong result count in certain recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.16
+Date: 04.10.2024
+  Bugfixes:
+    - Fixed wrong result count in certain recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.15
+Date: 03.10.2024
+  Bugfixes:
+    - Fixed wrong time/input ratio with certain recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 21.09.2024
+  Bugfixes:
+    - Fixed wrong result count with multiple result
+---------------------------------------------------------------------------------------------------
+Version: 0.1.13
+Date: 15.09.2024
+  Bugfixes:
+    - Fixed crash at startup.
+    - Fixed missing technology (Reactor Control Unit)
+  Changes:
+    - Changed technology level of Low Density Structure and Rocket Fuel from 3 to 5
+    - Removed Satellite efficiency
+---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 10.09.2024
+  Features:
+    - Added electronic circuit stone efficiency (aai industry)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 10.09.2024
+  Bugfixes:
+    - Fixed crash at startup with "Angels Smelting"
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 30.06.2024
+  Bugfixes:
+    - Fixed crash at startup with "Industrial Revolution 3" 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 21.03.2024
+  Bugfixes:
+    - Bugfix with non sequential fluid ingredients/results (thanks to nihilistzsche for the fix)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 21.03.2024
+  Bugfixes:
+    - Fixed bug with multiple fluid output
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 19.03.2024
+  Bugfixes:
+    - Fixed fluid input/output
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 22.11.2023
+  Bugfixes:
+    - Fixed recipe hiding system with custom recipe 
+  Features:
+    - Added rocker-control-unit efficiency
+    - Added support for productivity
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 24.08.2023
+  Bugfixes:
+    - Fixed startup error
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 23.08.2023
+  Bugfixes:
+    - Fixed wrong result count in recipes 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 23.07.2023
+  Bugfixes:
+    - Fixed game crash on loading where the mod bzchlorine is enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 16.02.2023
+  Bugfixes:
+    - Fixed game crash on loading when are enabled mods "Lead" and "Graphite & Diamonds"
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 10.02.2023
+  Bugfixes:
+    - Fixed internal bug
+    - Fixed game crash when adding recipe with ammount_min/amount_max 
+  Minor Features:
+    - Mod loading optimizations
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 9.02.2023
+  Bugfixes:
+    - Fixed recipe order.
+  Features:
+    - Added recipe Military Science Pack
+  Changes:
+    - Added Military Science Pack to the list of ingredients for the technologies 
+---------------------------------------------------------------------------------------------------
+Version: 0.0.17
+Date: 10.12.2022
+  Bugfixes:
+    - Fixed the bug that when pressing the planner button with an item it would be destroyed
+  Features:
+    - Added recipe for "copper-plate" and "iron-plate"
+    - Added expensive level of recipe
+    - Added startup setting to enable productivity module
+    - Added support of vanilla recipe to the planner
+---------------------------------------------------------------------------------------------------
+Version: 0.0.16
+Date: 03.11.2022
+  Features:
+    - Added planner to update machine recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 13.09.2022
+  Features:
+    - unlocks technologies that were blocked by the old technology management system
+    - Added Steel plate efficiency
+    - Added Solid fuel efficiency *for all fluids*
+    - Added Rocket fuel efficiency
+---------------------------------------------------------------------------------------------------
+Version: 0.0.14
+Date: 12.09.2022
+  Features:
+    - Added Basic oil processing efficiency
+    - Added Advanced oil processing efficiency
+    - Added coal liquefaction efficiency
+    - Added Lubricant efficiency
+    - Added Satellite efficiency 
+---------------------------------------------------------------------------------------------------
+Version: 0.0.13
+Date: 07.09.2022
+  Bugfixes:
+    - Fixed the bug when updating the mod that techs are not displayed
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 03.09.2022
+  Features:
+    - Add setting to turn on/off for replacing vanilla recipe
+  Bugfixes:
+    - Fixed technology prerequisites that not include base technology
+    - Fixed the bug that when a mod is updated all the old recipes appear
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+Date: 30.08.2022
+  Changes:
+    - Changed name of recipe/technology of sulfur to sulfur processing
+  Bugfixes:
+    - Fixed technology start tier of sulfur processing
+    - Fixed prerequisites of technology sulfur processing
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 29.08.2022
+  Changes:
+    - Increased the maximum efficiency level of almost all recipes 
+  Features:
+    - Added sulfur to efficiency
+    - Replace vanilla recipes in the entities
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 28.08.2022
+  Bugfixes:
+    - Fixed the cost of technology after level 15
+    - Fixed the prerequisites of technology
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 27.08.2022
+  Changes:
+    - Minor fix
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 14.08.2022
+  Features:
+    - Added support for Space Exploration
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 13.08.2022
+  Changes:
+    - Changed efficiency from 5% to 10%
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 11.08.2022
+  Features:
+    - Added efficiency for science pack
+      Changes:
+    - Changed base cost of technology 
+  Bugfixes:
+    - Fixed different recipe with the same result  
+    - Fixed recipe that have 1 with result
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 06.08.2022
+  Features:
+    - Added function to add custom recipes (CE_Add_Recipe)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 05.08.2022
+  Bugfixes:
+    - Fixed Game Loading error        
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 03.08.2022
+  Bugfixes:
+    - Fixed mod crash when researching a technology
+    - Fixed technology name
+  Changes:
+    - Changed recipe names
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 01.08.2022
+  Features:
+    - Initial release
