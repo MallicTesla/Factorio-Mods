@@ -1,0 +1,109 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 16 Dec 2020
+  Changes:
+    - Update to Factorio version 1.1.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.19
+Date: 06 Sep 2020
+  Changes:
+    - Mark mod as incompatible with ones that cause significant changes to how offshore pumps work. For those mods, use https://mods.factorio.com/mod/PumpAnywhere instead.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.18
+Date: 14 Aug 2020
+  Bugfixes:
+    - Fix crash when loading recipes that define normal or expensive recipes but not both.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.17
+Date: 01 Aug 2020
+  Bugfixes:
+    - Fix improperly enabling Angel's Refining seafloor pump at the beginning of the game.
+    - Fix incorrect recipe for seafloor pump when using the Sea Block mod pack.
+    - Fix pumps in player inventories not being updated.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.16
+Date: 20 Mar 2020
+  Bugfixes:
+    - Fix crash when used with Noxys Waterfill with the technology requirement turned off.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 20 Mar 2020
+  Bugfixes:
+    - Fix crash when users who are fond of redundancy install this alongside Stone Water Well.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.14
+Date: 18 Mar 2020
+  Bugfixes:
+    - Fix crash when loading Angel's Refining's seafloor pump.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.13
+Date: 15 Mar 2020
+  Changes:
+    - Add automatic detection for Dectorio.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 14 Mar 2020
+  Changes:
+    - Update mod to handle 0.18.10's changes to offshore pumps.
+    - Update mod thumbnail to the new offshore pump graphics.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+Date: 14 Feb 2020
+  Changes:
+    - Update to Factorio version 0.18.
+    - Add automatic detection for Waterfill_v17.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 3 Sep 2019
+  Bugfixes:
+    - Fix crash while loading Nauvis Post Collapse scenario.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 18 May 2019
+  Changes:
+    - When mod is activated, fix issues that were caused by mod being deactivated incorrectly.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 2 May 2019
+  Bugfixes:
+    - Handle 0.17.35's renaming of "player" to "character"
+    - Fix pumps being added to player's inventory on unlock/revert.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 30 Mar 2019
+  Bugfixes:
+    - Fix recipe on seafloor pump from Angel's Refining.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 1 Mar 2019
+  Bugfixes:
+    - Prevent mods that reset technology effects from removing this mod's changes.
+    - Fix copy/paste error in 0.0.5's changelog.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 1 Mar 2019
+  Bugfixes:
+    - Fix pumps temporarily stopping when replaced.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 26 Feb 2019
+  Changes:
+    - Update version number to 0.17. No functional or internal changes needed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 10 Feb 2019
+  Changes:
+    - Make offshore pumps use the name that normal pumps change to after being surrounded by landfill ("water well pump").
+  Bugfixes:
+    - Also convert items that are in a player's inventory, a chest, or a vehicle.
+    - Handle a changing activation tech, whether through changing which mods are installed or changing the config value.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 7 Feb 2019
+  Bugfixes:
+    - Add compatibility with recipes that use offshore pumps (e.g. Pyanodon's sinkhole).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2 Feb 2019
+  Changes:
+    - Initial release
