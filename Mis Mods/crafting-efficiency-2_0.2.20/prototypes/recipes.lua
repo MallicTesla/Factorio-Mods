@@ -74,7 +74,7 @@ function Add_research(name, stage, stage_level)
 
     local unit = {}
     unit.count_formula = tostring(stage.stages_costs[stage_level]) ..
-        " * " .. tostring(stage.stages_cost_multipliers[stage_level]) .. " * l"
+        " * " .. tostring(stage.stages_cost_multipliers[stage_level]) .. " * (1.1 ^ (l - 1))"
     unit.ingredients = packs
     unit.time = stage.stages_times[stage_level]
     tech.unit = unit

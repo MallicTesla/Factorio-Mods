@@ -1,3 +1,6 @@
+Cambios locales:
+  Cambios:
+    - El coste de ciencia de las tecnologías aumenta un 10 % por cada nivel.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.20
 Date: 14.07.2025
