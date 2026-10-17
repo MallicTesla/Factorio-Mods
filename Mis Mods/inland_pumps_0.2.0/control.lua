@@ -1,0 +1,2 @@
+-- The base-game edition changes the original offshore pump directly, so it has
+-- no runtime state, commands, or technology requirement.

@@ -1,0 +1,2 @@
+-- No startup settings are needed: inland pumping is always enabled in the
+-- base-game edition of this mod.

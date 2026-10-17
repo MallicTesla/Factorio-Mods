@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 16 Oct 2026
+  Cambios:
+    - Mod adaptado al juego base de Factorio 2.0.
+    - Las bombas offshore ahora se pueden colocar en cualquier parte y extraen agua sobre tierra.
+    - Se eliminó el ajuste de tecnología y las integraciones con mods antiguos.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 16 Dec 2020
   Changes:
