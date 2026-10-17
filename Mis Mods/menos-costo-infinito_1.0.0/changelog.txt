@@ -1,7 +1,0 @@
----------------------------------------------------------------------------------------------------
-Version: 1.0.0
-Date: 17.10.2026
-  Cambios:
-    - Creado el mod "Menos costo infinito".
-    - Las nueve tecnologias infinitas del juego base conservan su coste inicial.
-    - A partir de ese nivel, el coste de ciencia aumenta un 10 % por nivel.

@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 17.10.2026
+  Correcciones:
+    - Se actualiza el coste de tecnologias infinitas que ya tengan niveles investigados en partidas guardadas.
+    - Se conserva el porcentaje de progreso de una investigacion que estuviera en curso.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 17.10.2026
+  Cambios:
+    - Creado el mod "Menos costo infinito".
+    - Las nueve tecnologias infinitas del juego base conservan su coste inicial.
+    - A partir de ese nivel, el coste de ciencia aumenta un 10 % por nivel.
