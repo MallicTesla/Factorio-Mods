@@ -1,9 +1,0 @@
-{
-  "name": "menos-costo-infinito",
-  "version": "1.0.1",
-  "title": "Menos costo infinito",
-  "author": "Mallic",
-  "description": "Hace que el coste de las tecnologias infinitas del juego base aumente un 10 % por nivel, conservando el coste normal del primer nivel infinito.",
-  "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0.0"]
-}

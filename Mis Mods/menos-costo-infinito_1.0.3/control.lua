@@ -2,23 +2,20 @@
 -- Factorio guarda el nivel y el progreso por fuerza, por eso hay que recargar
 -- la tecnologia despues de cambiar su formula en data-final-fixes.lua.
 
-local tecnologias_base = {
-    ["energy-weapons-damage"] = true,
-    ["physical-projectile-damage"] = true,
-    ["refined-flammables"] = true,
-    ["stronger-explosives"] = true,
-    ["artillery-shell-range"] = true,
-    ["artillery-shell-speed"] = true,
-    ["worker-robots-speed"] = true,
-    ["mining-productivity"] = true,
-    ["follower-robot-count"] = true
+local tecnologias_infinita_base = {
+    ["energy-weapons-damage-7"] = true,
+    ["physical-projectile-damage-7"] = true,
+    ["refined-flammables-7"] = true,
+    ["stronger-explosives-7"] = true,
+    ["artillery-shell-range-1"] = true,
+    ["artillery-shell-speed-1"] = true,
+    ["worker-robots-speed-6"] = true,
+    ["mining-productivity-4"] = true,
+    ["follower-robot-count-5"] = true
 }
 
 local function es_tecnologia_infinita_base(tecnologia)
-    local prefijo = tecnologia.name:match("^(.*)%-(%d+)$")
-
-    return tecnologias_base[prefijo]
-        and tecnologia.prototype.max_level == "infinite"
+    return tecnologias_infinita_base[tecnologia.name] == true
 end
 
 local function actualizar_tecnologias_guardadas()
@@ -27,7 +24,7 @@ local function actualizar_tecnologias_guardadas()
             if es_tecnologia_infinita_base(tecnologia) then
                 local progreso = tecnologia.saved_progress
 
-                tecnologia:reload()
+                tecnologia.reload()
                 tecnologia.saved_progress = progreso
             end
         end

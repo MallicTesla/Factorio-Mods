@@ -1,9 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 17.10.2026
+  Correcciones:
+    - Corregida la actualizacion de tecnologias infinitas en partidas guardadas.
+    - Eliminado el comando manual de actualizacion.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 17.10.2026
   Correcciones:
     - Se actualiza el coste de tecnologias infinitas que ya tengan niveles investigados en partidas guardadas.
     - Se conserva el porcentaje de progreso de una investigacion que estuviera en curso.
+  Cambios:
+    - El primer nivel infinito de cada tecnologia modificada cuesta 1000 paquetes de ciencia.
+    - Los niveles posteriores aumentan el coste un 10 % por nivel.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 17.10.2026

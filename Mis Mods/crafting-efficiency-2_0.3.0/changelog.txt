@@ -1,3 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version 0.3.0
+Date 26.06.2026
+  Features:
+    - Bump "Factorio" version to 2.1
+---------------------------------------------------------------------------------------------------
 Cambios locales:
   Cambios:
     - El coste de ciencia de las tecnologías aumenta un 10 % por cada nivel.
