@@ -1,11 +1,11 @@
 {
   "name": "Adjustable-Inventory-Size",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "title": "Adjustable Inventory Size",
   "author": "Jessea2010",
   "homepage": "https://mods.factorio.com/mod/Adjustable-Inventory-Size",
   "contact": "",
   "description": "Choose your inventory size. From 50 up to 2000.",
-  "factorio_version":"2.0",
-  "dependencies": ["base >= 2.0"]
+  "factorio_version":"2.1",
+  "dependencies": ["base >= 2.1"]
 }
