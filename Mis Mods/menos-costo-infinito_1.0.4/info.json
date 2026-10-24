@@ -1,9 +1,9 @@
 {
   "name": "menos-costo-infinito",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Menos costo infinito",
   "author": "Mallic",
   "description": "Hace que el coste de las tecnologias infinitas del juego base comience en 1000 paquetes de ciencia y aumente un 10 % por nivel.",
-  "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0.0"]
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0"]
 }
